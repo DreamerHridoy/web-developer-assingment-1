@@ -22,9 +22,58 @@ header > nav > h1 {
 }
 header > nav > p {
   font-family: Azeret Mono;
-  font-size: 20px;
+  font-size: 16px;
+  padding: 5px;
   font-weight: 400;
   border: 1px solid rgb(13, 19, 33);
-  border-radius: 8px;
+  border-radius: 5px;
   margin-top: 30px;
+  opacity: 0.7;
+}
+/* banner part  */
+.banner-container {
+  width: 1440px;
+  height: 652px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-image: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 152px;
+}
+.banner-items h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 38px;
+  font-weight: 800;
+  width: 998px;
+  height: 136px;
+  text-align: center;
+}
+.banner-items p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  width: 998px;
+  height: 212px;
+  text-align: center;
+}
+.bg-btn {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 200px;
+  height: 60px;
+  background: rgb(13, 19, 33);
+  margin-top: -20px;
+}
+.banner-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
