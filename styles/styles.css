@@ -212,6 +212,7 @@ header > nav > p {
   height: 614px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 150px;
 }
 .inspiration-text h1 {
   color: rgb(13, 19, 33);
@@ -243,4 +244,90 @@ header > nav > p {
   width: 1076px;
   height: 550px;
   width: 100%;
+}
+/* my current target  */
+.current-target-container {
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+.current-target-container .headline {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  width: 852px;
+  height: 37px;
+  text-align: center;
+  margin-left: 80px;
+  margin-bottom: 24px;
+}
+.current-target-container .heading-details {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  width: 852px;
+  height: 52px;
+  text-align: center;
+  margin-left: 80px;
+}
+.current-target-items {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 10px;
+}
+.current-target-items h1 {
+  width: 284px;
+  height: 36px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.current-target-items p {
+  width: 284px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* .current-target-items a {
+  width: 284px;
+  height: 19px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-top: 200px; */
+/* } */
+.link-learn-more {
+  margin-top: 100px;
+}
+.current-target-item-html {
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  margin: 10px;
+}
+.current-target-item-css {
+  border-radius: 16px;
+  width: 364px;
+  height: 299px;
+  background: rgba(0, 76, 232, 0.05);
+  margin: 10px;
+}
+.current-target-item-js {
+  border-radius: 16px;
+  width: 364px;
+  height: 299px;
+  background: rgba(255, 223, 0, 0.05);
+  margin: 10px;
 }
