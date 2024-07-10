@@ -245,6 +245,9 @@ header > nav > p {
   height: 550px;
   width: 100%;
 }
+.border-design {
+  border-radius: 15px;
+}
 /* my current target  */
 .current-target-container {
   width: 1140px;
@@ -262,6 +265,7 @@ header > nav > p {
   text-align: center;
   margin-left: 80px;
   margin-bottom: 24px;
+  margin-top: -60px;
 }
 .current-target-container .heading-details {
   color: rgb(13, 19, 33);
@@ -401,4 +405,26 @@ header > nav > p {
   height: 57px;
   margin-left: 5px;
   font-family: cursive;
+}
+/* footer part  */
+.footer-container {
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-introduction h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer-icon a {
+  text-decoration: none;
 }
